@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	spread_invoke()
+	RunWordCount()
 }
 
 func main_str_test() {
