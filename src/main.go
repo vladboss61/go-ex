@@ -9,10 +9,7 @@ import (
 )
 
 func main() {
-	array_make()
-	time_week()
-	for_while()
-	for_loop([]int{1, 5, 5, 10, 12})
+	spread_invoke()
 }
 
 func main_str_test() {

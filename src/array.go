@@ -13,7 +13,6 @@ func array_fixed() {
 
 func array_make() {
 	// dynamic sized array.
-
 	maked_array := make([]string, 2, 10)
 	fmt.Println("Len: ", len(maked_array))
 	maked_array[0] = "vlad"

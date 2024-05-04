@@ -31,5 +31,4 @@ func for_range() {
 	for i, v := range arr {
 		fmt.Printf("Index: %d | Value: %s", i, v)
 	}
-
 }
