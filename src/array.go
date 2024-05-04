@@ -8,7 +8,16 @@ type Block struct {
 
 func array_fixed() {
 	var fix []string = []string{"vlad", "hello"}
+
 	fmt.Println(fix)
+
+	fix = append(fix, "appendedValue")
+
+	fmt.Println(fix)
+
+	// Empty initializer
+	fixed_empty := []string{}
+	fmt.Println(fixed_empty)
 }
 
 func array_make() {

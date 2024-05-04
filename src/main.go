@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	RunWordCount()
+	array_fixed()
 }
 
 func main_str_test() {
