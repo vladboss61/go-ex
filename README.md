@@ -35,3 +35,13 @@ complex64 complex128
 var i int = 42
 var f float64 = float64(i)
 var u uint = uint(f)
+
+
+# Install package
+go get -v <import_path_of_package>
+
+or
+go install <import_path_of_package>
+or
+
+go mod init <module_name>

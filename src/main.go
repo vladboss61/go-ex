@@ -9,14 +9,14 @@ import (
 )
 
 func main() {
-	array_fixed()
+	new_example()
 }
 
 func main_str_test() {
 	doubleQuotes := "Hello \n World !"
 	backQuotes := `Back \n World !`
 	var singleChar int32 = 'A'
-
+	
 	fmt.Println(doubleQuotes)
 	fmt.Println(backQuotes)
 	fmt.Println(singleChar)
